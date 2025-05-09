@@ -25,6 +25,7 @@ public class SpringJenkinsApplication {
     @PreDestroy
     public void destroy() {
         log.info("Destroy method is executed...");
+        log.info("Again destroy....");
     }
 
 }
